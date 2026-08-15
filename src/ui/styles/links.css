@@ -1,0 +1,8 @@
+a {
+	color: lightblue;
+	transition-duration: 0.2s;
+}
+
+a:hover {
+	color: royalblue;
+}

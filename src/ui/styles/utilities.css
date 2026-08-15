@@ -1,0 +1,4 @@
+.sep {
+	border: 0.5px solid var(--sep-color);
+	min-width: 100%;
+}
