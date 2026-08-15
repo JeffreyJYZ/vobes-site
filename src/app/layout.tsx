@@ -7,7 +7,11 @@ import "@/ui/styles/links.css";
 import "./globals.css";
 import { generalSans, satoshi } from "@/ui/fonts";
 
-export const metadata: Metadata = {};
+export const metadata: Metadata = {
+	icons: {
+		icon: "/icon.svg",
+	},
+};
 
 export default function RootLayout({
 	children,

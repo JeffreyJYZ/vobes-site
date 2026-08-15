@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img">
+	<title>vobes</title>
+	<defs>
+		<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#525252" />
+			<stop offset="1" stop-color="#262626" />
+		</linearGradient>
+	</defs>
+	<rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)" />
+	<path
+		d="M300 330 L512 706 L724 330"
+		fill="none"
+		stroke="#fafafa"
+		stroke-width="90"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+</svg>
