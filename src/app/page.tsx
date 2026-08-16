@@ -1,3 +1,10 @@
+import Link from "next/link";
+import {
+	LATEST_RELEASE_URL,
+	README_URL,
+	RELEASES_URL,
+	WEBSITE_REPO_URL,
+} from "@/lib/consts";
 import { IconExternalLink } from "@/ui/components/icon-external-link";
 import { CopyBlock } from "@/ui/copy-block";
 
@@ -6,8 +13,6 @@ export default function HomePage() {
 		"group inline-flex items-center gap-1.5 text-sm text-neutral-300 hover:text-white underline-offset-4 hover:underline transition-colors";
 	const linkIconClass =
 		"size-3 text-neutral-500 group-hover:text-white transition-colors";
-	const linkUrl = "https://github.com/jeffreyjyz/vobes/releases";
-	const readmeUrl = "https://github.com/jeffreyjyz/vobes#readme";
 
 	return (
 		<>
@@ -23,9 +28,7 @@ export default function HomePage() {
 					Desktop
 				</p>
 				<div className="flex flex-col gap-1 items-center">
-					<a href="https://github.com/jeffreyjyz/vobes/releases/latest">
-						Latest Release
-					</a>
+					<Link href={LATEST_RELEASE_URL}>Latest Release</Link>
 				</div>
 			</div>
 			<div className="mb-10">
@@ -42,21 +45,18 @@ export default function HomePage() {
 					Links
 				</p>
 				<div className="flex flex-col gap-1 items-center">
-					<a className={linkClass} href={linkUrl}>
+					<Link className={linkClass} href={RELEASES_URL}>
 						<span>Releases</span>
 						<IconExternalLink className={linkIconClass} />
-					</a>
-					<a className={linkClass} href={readmeUrl}>
+					</Link>
+					<Link className={linkClass} href={README_URL}>
 						<span>README</span>
 						<IconExternalLink className={linkIconClass} />
-					</a>
-					<a
-						className={linkClass}
-						href="https://github.com/JeffreyJYZ/vobes-site"
-					>
+					</Link>
+					<Link className={linkClass} href={WEBSITE_REPO_URL}>
 						<span>Website Repo</span>
 						<IconExternalLink className={linkIconClass} />
-					</a>
+					</Link>
 				</div>
 			</div>
 		</>
