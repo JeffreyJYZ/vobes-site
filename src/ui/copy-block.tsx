@@ -17,7 +17,7 @@ export function CopyBlock({ value }: { value: string }) {
 		<button
 			type="button"
 			onClick={copy}
-			className="group flex items-center gap-3 px-4 py-2 border border-neutral-700 rounded-md font-mono text-sm hover:border-neutral-500 transition-colors"
+			className="group flex items-center gap-3 px-4 py-2 border border-neutral-700 rounded-md sf-mono text-sm hover:border-neutral-500 transition-colors"
 		>
 			<span>{value}</span>
 			<span className="text-neutral-500 group-hover:text-neutral-300">

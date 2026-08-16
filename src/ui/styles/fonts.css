@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "SF Pro";
+	src:
+		local(".SF Pro Display"),
+		local(".SF Pro Text"),
+		local("-apple-system");
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src:
+		local("SF Mono"),
+		local(".SF Mono"),
+		local("Menlo"),
+		local("Monaco");
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}

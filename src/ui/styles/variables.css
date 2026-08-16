@@ -1,4 +1,10 @@
 :root {
 	--sep-color: rgb(120, 120, 120);
 	--font-family: var(--font-satoshi);
+	--font-sans: var(--font-satoshi);
+	--font-mono: var(--font-sf-mono);
+	--font-sf-mono: var(--font-sf-mono), ui-monospace, SFMono-Regular, Menlo, Monaco,
+		Consolas, "Liberation Mono", "Courier New", monospace;
+	--font-sf-pro: var(--font-sf-pro), -apple-system, BlinkMacSystemFont, system-ui,
+		sans-serif;
 }
