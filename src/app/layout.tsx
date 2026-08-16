@@ -7,7 +7,7 @@ import "@/ui/styles/utilities.css";
 import "@/ui/styles/headings.css";
 import "@/ui/styles/links.css";
 import "./globals.css";
-import { generalSans, satoshi, sfMono, sfPro } from "@/ui/fonts";
+import { sfMono, sfPro } from "@/ui/fonts";
 
 export const metadata: Metadata = {
 	title: "Vobes: the future of project management",
@@ -24,11 +24,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html
-			lang="en"
-			className={`${generalSans.variable} ${satoshi.variable} ${sfMono.variable} ${sfPro.variable}`}
-		>
-			<body className="satoshi text-center m-0 p-0 bg-neutral-900 text-white">
+		<html lang="en" className={`${sfMono.variable} ${sfPro.variable}`}>
+			<body className="sf-pro text-center m-0 p-0 bg-neutral-900 text-white">
 				<main className="pt-20 flex flex-col items-center p-10 border-x-neutral-700 border-x md:mx-40 lg:mx-50 mx-15 min-h-screen">
 					{children}
 				</main>

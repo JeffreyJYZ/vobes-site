@@ -1,15 +1,6 @@
-.satoshi {
-	font-family: var(--font-satoshi);
-}
-.general-sans {
-	font-family: var(--font-general-sans);
-}
 .sf-mono {
 	font-family: var(--font-sf-mono);
 }
 .sf-pro {
 	font-family: var(--font-sf-pro);
-}
-.long-p {
-	font-family: var(--font-general-sans);
 }
