@@ -29,7 +29,9 @@ if (!res.ok) {
 }
 
 const { check_runs = [] } = await res.json();
-const ci = check_runs.filter((r) => r.name === "CI" || r.name?.startsWith("CI /"));
+const ci = check_runs.filter(
+	(r) => r.name === "CI" || r.name?.startsWith("CI /"),
+);
 
 if (ci.length === 0) {
 	console.log("no CI check runs found, deploying");
