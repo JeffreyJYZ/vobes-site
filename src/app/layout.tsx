@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import "@/ui/styles/fonts.css";
 import "@/ui/styles/font-classes.css";
@@ -29,6 +30,7 @@ export default function RootLayout({
 				<main className="pt-20 flex flex-col items-center p-10 border-x-neutral-700 border-x md:mx-40 lg:mx-50 mx-15 min-h-screen">
 					{children}
 				</main>
+				<Analytics />
 			</body>
 		</html>
 	);
