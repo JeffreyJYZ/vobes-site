@@ -31,7 +31,10 @@ export default function RootLayout({
 					{children}
 				</main>
 				<footer className="pb-12 text-xs text-neutral-500">
-					<a className="hover:text-white transition-colors" href="https://jyz.land">
+					<a
+						className="hover:text-white transition-colors"
+						href="https://jyz.land"
+					>
 						jyz.land
 					</a>
 				</footer>
