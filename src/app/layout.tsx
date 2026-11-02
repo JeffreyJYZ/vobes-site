@@ -30,6 +30,11 @@ export default function RootLayout({
 				<main className="pt-20 flex flex-col items-center p-10 border-x-neutral-700 border-x md:mx-40 lg:mx-50 mx-15 min-h-screen">
 					{children}
 				</main>
+				<footer className="pb-12 text-xs text-neutral-500">
+					<a className="hover:text-white transition-colors" href="https://jyz.land">
+						jyz.land
+					</a>
+				</footer>
 				<Analytics />
 			</body>
 		</html>
